@@ -59,7 +59,7 @@ bool RendererOGL::Initialize(Window& windowP)
 	//}
 
 	vertexArray = new VertexArray(vertices, 4, indices, 6);
-	shader = &Assets::GetShader("basic");
+	shader = &Assets::GetShader("Basic");
 	return true;
 
 }
@@ -69,21 +69,24 @@ void RendererOGL::BeginDraw()
 	glClearColor(0.45f, 0.45f, 1.0f, 1.0f);
 	// Clear the color and depth buffer
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	shader->use();
+	vertexArray->SetActive();
 }
 
 void RendererOGL::Draw()
 {
-	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT,nullptr);
+	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
 }
 
 void RendererOGL::EndDraw()
 {
+	
 	SDL_GL_SwapWindow(window->GetSDLWindow());
 }
 
 void RendererOGL::Close()
 {
-	
+	delete vertexArray;
 	SDL_GL_DeleteContext(context);
 }
 

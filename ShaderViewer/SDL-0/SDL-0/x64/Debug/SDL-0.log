@@ -1,0 +1,19 @@
+﻿  Assets.cpp
+C:\SchoolWork\Shaderviewer\ShaderViewer\SDL-0\SDL-0\Shader.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'glew.h' : No such file or directory
+  Log.cpp
+C:\SchoolWork\Shaderviewer\ShaderViewer\SDL-0\SDL-0\Log.h(4,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL_log.h' : No such file or directory
+  Main.cpp
+C:\SchoolWork\Shaderviewer\ShaderViewer\SDL-0\SDL-0\Main.cpp(1,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL.h' : No such file or directory
+  RendererOGL.cpp
+C:\SchoolWork\Shaderviewer\ShaderViewer\SDL-0\SDL-0\Window.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL.h' : No such file or directory
+  RendererSDL.cpp
+C:\SchoolWork\Shaderviewer\ShaderViewer\SDL-0\SDL-0\Rectangle.h(2,9): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL_rect.h' : No such file or directory
+  Shader.cpp
+C:\SchoolWork\Shaderviewer\ShaderViewer\SDL-0\SDL-0\Shader.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'glew.h' : No such file or directory
+  VertexArray.cpp
+C:\SchoolWork\Shaderviewer\ShaderViewer\SDL-0\SDL-0\VertexArray.cpp(2,9): fatal error C1083: Impossible d'ouvrir le fichier include : 'glew.h' : No such file or directory
+  Viewer.cpp
+C:\SchoolWork\Shaderviewer\ShaderViewer\SDL-0\SDL-0\Window.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL.h' : No such file or directory
+  Window.cpp
+C:\SchoolWork\Shaderviewer\ShaderViewer\SDL-0\SDL-0\Window.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL.h' : No such file or directory
+  Génération de code en cours...

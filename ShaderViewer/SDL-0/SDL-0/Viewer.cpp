@@ -7,7 +7,7 @@ bool Viewer::Initialize() {
 	return isWindowInit&&isRendererInit;
 }
 void Viewer::Load() {
-	Assets::LoadShader("Res\Shaders\Basic.vert", "Res\Shaders\Basic.frag", "", "", "", "Basic");
+	Assets::LoadShader("vertexShader.txt", "colorFragShader.txt", "", "", "", "Basic");
 	Log::info("shader loaded");
 }
 void Viewer::Unload() {
