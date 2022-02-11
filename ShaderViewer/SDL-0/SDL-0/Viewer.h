@@ -2,6 +2,7 @@
 #include"Window.h"
 #include"RendererSDL.h"
 #include"RendererOGL.h"
+#include"Log.h"
 class Viewer
 {
 public:

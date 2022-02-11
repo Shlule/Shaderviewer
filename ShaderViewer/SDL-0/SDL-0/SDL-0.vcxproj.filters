@@ -22,6 +22,12 @@
     <Filter Include="Fichiers de ressources\Shaders\Vertex">
       <UniqueIdentifier>{055f8b39-24ae-44be-bdd4-c930090db12e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{1ba5f131-d380-4c5d-8834-6f28dbcbb4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Res\Shaders">
+      <UniqueIdentifier>{054007c4-1997-4faf-9d79-6d22cd8df2b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -91,5 +97,13 @@
     <ClInclude Include="Assets.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Basic.vert">
+      <Filter>Res\Shaders</Filter>
+    </None>
+    <None Include="Basic.frag">
+      <Filter>Res\Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

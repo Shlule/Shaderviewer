@@ -3,11 +3,15 @@
 
 bool Viewer::Initialize() {
 	bool isWindowInit = window.Initialize();
-	bool isRendererInit = rendererSDL.Initialize(window);
+	bool isRendererInit = rendererOGL.Initialize(window);
 	return isWindowInit&&isRendererInit;
 }
 void Viewer::Load() {
-	Assets::LoadShader("vertexShader.txt", "colorFragShader", "", "", "", "sprite");
+	Assets::LoadShader("Res\Shaders\Basic.vert", "Res\Shaders\Basic.frag", "", "", "", "Basic");
+	Log::info("shader loaded");
+}
+void Viewer::Unload() {
+
 }
 
 void Viewer::Loop() {
@@ -43,6 +47,6 @@ void Viewer::Update() {
 }
 void Viewer::Render() {
 	rendererOGL.BeginDraw();
-	//rendererSDL.Draw();
+	rendererOGL.Draw();
 	rendererOGL.EndDraw();
 }

@@ -73,7 +73,7 @@ void RendererOGL::BeginDraw()
 
 void RendererOGL::Draw()
 {
-
+	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT,nullptr);
 }
 
 void RendererOGL::EndDraw()

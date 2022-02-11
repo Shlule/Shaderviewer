@@ -54,7 +54,9 @@ unsigned int CreateFragmentShader(const char* shadersource) {
 int main(int argc = 0, char** argv = nullptr) {
     bool isViewerInit = Viewer::Instance().Initialize();
     if (isViewerInit) {
+        Viewer::Instance().Load();
         Viewer::Instance().Loop();
+        Viewer::Instance().Unload();
     }
     Viewer::Instance().Close();
     return 0;
