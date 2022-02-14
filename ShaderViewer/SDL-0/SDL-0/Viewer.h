@@ -3,6 +3,8 @@
 #include"RendererSDL.h"
 #include"RendererOGL.h"
 #include"Log.h"
+#include"ICommand.h"
+#include"InputHandler.h"
 class Viewer
 {
 public:
@@ -19,11 +21,13 @@ private:
 	Viewer():isRunning(true){}
 
 public:
+	void InputHandler();
 	bool Initialize();
 	void Load();
 	void Loop();
 	void Unload();
 	void Close();
+	void Quit();
 	RendererOGL& GetRenderer() { return rendererOGL; }
 	
 
@@ -36,5 +40,6 @@ private:
 	bool isRunning;
 	RendererSDL rendererSDL;
 	RendererOGL rendererOGL;
+	
 };
 

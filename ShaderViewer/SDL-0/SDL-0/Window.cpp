@@ -27,3 +27,16 @@ void Window::Close()
 {
 	SDL_DestroyWindow(SDLWindow);
 }
+
+void Window::ShiftUp() {
+	SDL_SetWindowPosition(SDLWindow, 100, 100);
+}
+void Window::ShiftDown() {
+	SDL_SetWindowPosition(SDLWindow, 500, 500);
+}
+void Window::ShiftRight() {
+	SDL_SetWindowPosition(SDLWindow, 500, 100);
+}
+void Window::ShiftLeft() {
+	SDL_SetWindowPosition(SDLWindow, 100, 500);
+}

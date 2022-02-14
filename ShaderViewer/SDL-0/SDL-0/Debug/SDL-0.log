@@ -1,12 +1,2 @@
-﻿  Assets.cpp
-  Log.cpp
-  Main.cpp
-  RendererOGL.cpp
-  RendererSDL.cpp
-  Shader.cpp
-  VertexArray.cpp
-C:\SchoolWork\Shaderviewer\ShaderViewer\SDL-0\SDL-0\VertexArray.cpp(12,49): warning C4244: 'argument' : conversion de 'double' en 'GLsizeiptr', perte possible de données
-  Viewer.cpp
-  Window.cpp
-  Génération de code en cours...
+﻿  Viewer.cpp
   SDL-0.vcxproj -> C:\SchoolWork\Shaderviewer\ShaderViewer\SDL-0\Debug\SDL-0.exe

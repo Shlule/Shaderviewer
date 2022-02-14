@@ -13,6 +13,10 @@ public:
 
 	bool Initialize();
 	void Close();
+	void ShiftUp();
+	void ShiftRight();
+	void ShiftDown();
+	void ShiftLeft();
 
 	SDL_Window* GetSDLWindow() const { return SDLWindow; }
 	int GetWidth() const { return width; }
