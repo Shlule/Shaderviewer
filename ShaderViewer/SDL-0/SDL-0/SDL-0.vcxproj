@@ -162,7 +162,7 @@
     <ClInclude Include="ICommand.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="IRenderer.h" />
-    <ClInclude Include="QuitCommand.h" />
+    <ClInclude Include="AllCommand.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Log.h" />
     <ClInclude Include="RendererOGL.h" />

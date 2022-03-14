@@ -21,7 +21,6 @@ private:
 	Viewer():isRunning(true){}
 
 public:
-	void InputHandler();
 	bool Initialize();
 	void Load();
 	void Loop();
@@ -35,11 +34,11 @@ private:
 	void ProcessInput();
 	void Update();
 	void Render();
-
 	Window window;
 	bool isRunning;
 	RendererSDL rendererSDL;
 	RendererOGL rendererOGL;
+	
 	
 };
 

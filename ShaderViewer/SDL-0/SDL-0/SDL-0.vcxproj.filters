@@ -103,7 +103,7 @@
     <ClInclude Include="ICommand.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="QuitCommand.h">
+    <ClInclude Include="AllCommand.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="InputHandler.h">
